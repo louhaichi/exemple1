@@ -1,0 +1,93 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    overflow: hidden;
+}
+.transparency {
+    background-color: #1e2833 !important;
+    opacity: 0.8;
+    
+}
+
+.btn{
+  
+}
+.form-control
+{
+    display: flex !important;
+    width:100% ;
+    padding:.375rem .75rem ;
+    font-size:1rem ;
+    line-height:1.5 ;
+    color:#495057 !important;
+    background-color:#fff ;
+    background-clip:padding-box ;
+    border:1px solid #ced4da ;
+    border-radius:10.25rem !;
+    transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out
+}
+  
+.col-md-4{
+    -webkit-box-flex:0;
+    -ms-flex:0 0 33.333333%;
+    flex:0 0 100% !important;
+     max-width:100% !important;
+}
+.play {
+    border-top: 5px solid #007bff;
+    border-bottom: 5px solid #007bff;
+    border-left: 10px solid #fff;
+    height: 0px;
+    width: 0px;
+    size: 0ch;
+
+}
+.input-group2{
+    display: block;
+}
+.hide{
+    display: none ;
+}
+.list-group-item{
+    color: white;
+    background-color:#1e2833 ;
+    width: 100%;
+
+}
+.video{
+    display: flex;
+}
+.btn{
+    margin: 0.3em;
+}
+.video-img{
+    width: 80px; height:50px; margin: 0.3em;
+}
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+.modal-dialog1 {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+
+
+.modal-body1{
+position:relative;
+padding:0px;
+}

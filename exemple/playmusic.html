@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>administration</title>
+</head>
+<body>
+<div>
+    
+</div>
+<!-- The Modal -->
+ <div class="container demo">
+
+    <div id="" class="" role="dialog">
+        <div class=" ">
+        <!-- Modal content-->
+            <div class="transparency">
+                <div class="modal-header ">
+                    <img id='img' src="youtube.png" style="width: 100px; height:30; margin-right: 25px; margin-top:15px;">
+                    <button data-dismiss="modal" class="btn btn-danger border-light" type="button" style="margin-top: 10px;">X</button>
+                </div>
+                <div class="modal-body">   
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="input-group" style="width: 100%;">
+                                <input class="form-control py-2 border-right-0 border" type="search" value="" id="search-music-input" >
+                                <span class="input-group-append">
+                                    <button type="button" class="btn btn-primary" onclick="myFunction()">Search</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hide" id="panel">
+                    <ul class="list-group list-group-flush">
+                        <div class="video">
+                            <img class="video-img" src="youtube.jpg" alt="">
+                            <li class="list-group-item">A Chill Mix - 'Holding On'</li>
+                            <button type="button" class="video-btn btn btn-primary float-right " data-toggle="modal" data-src="https://www.youtube.com/embed/HchJosCIuJY" data-target="#myModal">&#x25B8;Play</button>          
+                        </div> 
+                        <div class="video">
+                                <img class="video-img" src="youtube.jpg" alt="">
+                            <li class="list-group-item">Video2</li>
+                            <button type="button" class="btn btn-primary float-right">&#x25B8;Play</button>          
+                        </div>
+                        <div class="video">
+                            <img class="video-img" src="youtube.jpg" alt="">
+                            <li class="list-group-item">Video3</li>
+                            <button type="button" class="btn btn-primary float-right">&#x25B8;Play</button>          
+                        </div>
+                    </ul>
+                </div>      
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog1" role="document">
+            <div class="modal-content">
+                <div class="modal-body modal-body1">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
